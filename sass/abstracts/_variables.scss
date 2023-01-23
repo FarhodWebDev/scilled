@@ -1,0 +1,43 @@
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-800.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+// mana endi o`zgaruvchilar
+
+$buttons-bg: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.5%);
+$primary-color-h1: #13183f;
+$secondary-color: #f74780;
+$main-text-color: #83869a;
+$body-bg: #f2f2f2;
+$white-color: #ffffff;
+$liner-div-color: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+$liner-btn-color: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+
+$main-font-family: "Plus Jakarta Sans", sans-serif;

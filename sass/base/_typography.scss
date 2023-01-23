@@ -1,0 +1,19 @@
+body {
+  font-family: $main-font-family;
+  @include fontStyle(1.8rem, 1.56, normal, $main-text-color, 500);
+}
+
+h1 {
+  @include fontStyle(5.6rem, 1.26, normal, $primary-color-h1, 800);
+}
+
+h2 {
+  @include fontStyle(4rem, 1.25, normal, $primary-color-h1, 800);
+}
+
+h3 {
+  @include fontStyle(3.2rem, 1.25, normal, $primary-color-h1, 800);
+}
+h4 {
+  @include fontStyle(2.4rem, 1.25, normal, $primary-color-h1, 800);
+}

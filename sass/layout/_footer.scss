@@ -1,0 +1,65 @@
+.footer {
+  padding-top: 3.6rem;
+  padding-bottom: 3.6rem;
+  background-color: $primary-color-h1;
+
+  .container {
+    display: flex;
+
+    align-items: center;
+  }
+
+  .logo-img {
+    margin-right: 82.9rem;
+  }
+
+  .footer__btn {
+    background: $liner-btn-color;
+    font-size: 1.8rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 50%;
+    }
+  }
+}
+
+@include responsive(tablet) {
+  .container {
+    max-width: 798px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .logo-img {
+      margin-right: 46rem;
+    }
+    .footer__btn {
+      font-size: 1.6rem;
+      line-height: 1.75;
+      padding: {
+        top: 9px;
+        bottom: 11px;
+        left: 24px;
+        right: 24px;
+      }
+    }
+  }
+}
+
+@include responsive(mobile) {
+  .container {
+    max-width: 405px;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    .logo-img {
+      width: 89px;
+      height: 35px;
+      margin-right: 10.4rem;
+    }
+  }
+}
